@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Biography_fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/header_block_biography_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_biography_text"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/education_block_biography_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/education"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TextView
+                android:id="@+id/education_title_of_university"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="@string/university_name"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/faculty_name_university"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/education_date_of_university"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_university"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/education_title_of_college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="@string/university_name"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/faculty_name_college"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/education_date_of_college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_college"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/skills_block_biography_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skills"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TextView
+                android:id="@+id/skills_hard_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/hard_skills"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/skills_hard_skills_values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hard_skills_value"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/skills_soft_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/soft_skills"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/skills_soft_skills_values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/soft_skills_value"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/hobbies"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skills_languages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/languages"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/skills_languages_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/languages_value"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/hobbies_block_biography_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TextView
+                android:id="@+id/skills_hobbies_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hobbies_value"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
