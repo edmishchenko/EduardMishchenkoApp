@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EduardMishchenkoApp</string>
+    <string name="app_name">Eduard Mishchenko</string>
     <string name="open_drawer">open</string>
     <string name="close_drawer">close</string>
     <string name="large_text">
@@ -106,9 +106,15 @@
     <string name="languages">Languages:</string>
     <string name="languages_value">" Ukrainian is native\n"
     "Russian is native\n"
-    "English\n"
-    "Polish\n"</string>
+    "English B2\n"
+    "Polish B2\n"</string>
     <string name="hobbies_value">I am interested in IT, I do sport and try to travel more. I like football, tennis, spent time with friends and my girlfriend. I and sky love each other</string>
     <string name="hobbies">Hobbies</string>
     <string name="access_token">YOUR_MAPBOX_ACCESS_TOKEN</string>
+    <string name="contacts">Contacts</string>
+    <string name="projects">Projects</string>
+    <string name="biography">Biography</string>
+    <string name="technology">Technology: </string>
+    <string name="todo">TODO</string>
+    <string name="contact">Contact</string>
 </resources>

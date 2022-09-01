@@ -1,4 +1,4 @@
-package com.example.eduardmishchenkoapp
+package com.example.eduardmishchenkoapp.contacts
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.eduardmishchenkoapp.databinding.FragmentContactsBinding
-import com.google.android.gms.maps.MapView
 
 class ContactsFragment : Fragment() {
 
@@ -16,7 +15,7 @@ class ContactsFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentContactsBinding.inflate(inflater, container, false)
 
 
